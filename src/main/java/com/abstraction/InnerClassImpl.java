@@ -1,10 +1,16 @@
 package com.abstraction;
 
+import com.abstraction.LinkedList.Node;
+
 class LinkedList {
 
-	class Node {
+	static class Node {
 		int value;
 		Node next;
+		
+		static void printNode() {
+			System.out.println("Node");
+		}
 	}
 
 	Node head;
@@ -15,7 +21,7 @@ class LinkedList {
 public class InnerClassImpl {
 
 	public static void main(String[] args) {
-
+		Node.printNode();
 	}
 
 }

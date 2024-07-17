@@ -1,5 +1,9 @@
 package com.threads;
 
+
+class Constructor {
+	
+}
 class Counter {
 	int count;
 	
